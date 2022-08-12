@@ -10,7 +10,7 @@
  *
  *      Name:       Ho Fung Poon
  *      Student ID: 149040214
- *      Date:       10/08/2022
+ *      Date:       11/08/2022
  */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap");
@@ -32,38 +32,33 @@ body {
   height: 7%;
   margin: 0px 0px 50px 0px;
   font-size: 16pt;
-
-  /* color: #FD7014; */
 }
 #menu button {
   background-color: #bdbdbd;
   width: max-content;
   height: 50%;
   font-size: 90%;
-  border-radius: 1000px;
+  border-radius: 20cm;
   font-weight: 700;
   margin-top: 1%;
   float: right;
 }
 
 .frame {
-  /* display: grid;
-    grid-gap: 50px; */
   width: 100%;
   height: 100%;
-  margin: 00px 0px 00px 0px;
-  /* max-width: 1024px; */
+  margin: 0px;
 }
 
 .avator {
   display: grid;
-  grid-template-areas: "a b c";
+  grid-template-columns: 0.05fr 1fr 0.05fr;
   margin: 100px 0px 50px 0px;
   height: 800px;
 }
 
 .avator figure {
-  grid-area: b;
+  grid-column-start: 2;
   align-self: center;
   justify-self: center;
   display: grid;
@@ -82,7 +77,6 @@ body {
 
 #name {
   font-size: 48pt;
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
@@ -100,7 +94,7 @@ body {
   width: max-content;
   height: max-content;
   font-size: 1.5em;
-  border-radius: 1000px;
+  border-radius: 20cm;
   font-weight: 700;
   background-color: #bdbdbd;
 }
@@ -113,32 +107,19 @@ button :visited {
   color: #212121;
   text-decoration: none;
 }
-button :focus {
-  color: #212121;
-  text-decoration: none;
-}
-button :active {
-  color: #212121;
-  text-decoration: none;
-}
 
 .aboutme {
   margin: auto;
   width: 100%;
-  /* display: grid; */
   padding: auto;
   padding-top: 3%;
   padding-bottom: 5%;
   background-color: #fd7014;
   color: #eeeeee;
   border-radius: 20cm;
-  /* grid-template-columns: 1fr ; */
 }
 
 #description {
-  /* margin: 15% 20px 50px 30%; */
-  /* grid-column-start: 2; */
-  /* height: 100%; */
   width: 70%;
   margin: auto;
   margin-top: 10%;
@@ -156,15 +137,13 @@ button :active {
 
 #infotable {
   grid-column-start: 3;
-  /* margin: 22% 00px 350px 5%; */
   font-size: 200%;
   font-weight: 600;
-  padding: 000px 0px 50px 0px;
+  padding: 0px 0px 50px 0px;
   width: 50%;
   margin: auto;
 }
 #infotable table th {
-  margin: 80px 00px 100px 0px;
   text-align: left;
   font-size: 50%;
   width: 50px;
@@ -175,11 +154,11 @@ button :active {
   font-weight: 100;
 }
 #tablehead {
-  margin: 0px 00px 40px 0px;
+  margin-bottom: 6%;
 }
 
 #frameEdu {
-  grid-column-gap:5% ;
+  grid-column-gap: 5%;
 }
 
 #edulist {
@@ -188,15 +167,12 @@ button :active {
 }
 
 .cards {
-  /* box-shadow: 0px 3px 0px 3px lightgray; */
   width: 80%;
   height: 230px;
   display: grid;
-  /* grid-gap: 5px; */
   grid-template-columns: 1fr 1.5fr;
   margin: auto;
   padding: 10px 50px 0px 0px;
-
 }
 
 .icon h4 {
@@ -229,7 +205,7 @@ button :active {
   grid-gap: 40px;
   background-color: #eeeeee;
   color: #212121;
-  border-radius: 20cm;
+  border-radius: 10cm;
 }
 
 #contactme h2 {
@@ -300,12 +276,12 @@ button :active {
   grid-row-start: 2;
 }
 
-#contactPcode{
+#contactPcode {
   grid-column-start: 2;
   grid-row-start: 3;
 }
 
-#pCodeInput{
+#pCodeInput {
   grid-column-start: 3;
   grid-row-start: 3;
 }
@@ -317,7 +293,7 @@ button :active {
   align-items: left;
   justify-self: left;
   margin-top: 2%;
-font-size: 80%;
+  font-size: 80%;
   padding: 5px 5px 5px 0px;
   grid-gap: 5px;
 }
@@ -367,7 +343,6 @@ font-size: 80%;
 }
 
 #upAndSup {
-  /* grid-area: d; */
   display: grid;
   grid-gap: 2px;
   grid-template-columns: 1fr 1fr;
@@ -390,4 +365,3 @@ font-size: 80%;
   width: 100px;
   font-size: 18pt;
 }
-
