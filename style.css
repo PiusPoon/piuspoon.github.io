@@ -172,7 +172,7 @@ button :visited {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   margin: auto;
-  padding: 10px 50px 0px 0px;
+  padding: 00px 50px 40px 0px;
 }
 
 .icon h4 {
@@ -186,11 +186,13 @@ button :visited {
 }
 
 .description h4 {
+  margin-bottom: 0%;
   font-size: 24pt;
 }
 
 .description p {
   font-size: 18pt;
+  margin-top: 0%;
 }
 
 #frameCont {
